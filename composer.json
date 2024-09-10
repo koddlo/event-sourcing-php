@@ -1,0 +1,33 @@
+{
+    "name": "koddlo/event-sourcing-php",
+    "description": "Event Sourcing in PHP",
+    "keywords": ["event-sourcing", "es", "php", "koddlo"],
+    "license": "All rights reserved",
+    "authors": [
+        {
+          "name": "Krystian Żądło",
+          "email": "kontakt@koddlo.pl",
+          "homepage": "https://koddlo.pl",
+          "role": "Owner"
+        }
+    ],
+    "type": "project",
+    "minimum-stability": "stable",
+    "require": {
+        "php": "8.3.*",
+        "ext-mbstring": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "11.3.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Koddlo\\Es\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Koddlo\\Es\\Tests\\Unit\\": "tests/unit/"
+        }
+    }
+}

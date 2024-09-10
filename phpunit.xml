@@ -1,0 +1,7 @@
+<phpunit bootstrap="vendor/autoload.php">
+    <testsuites>
+        <testsuite name="Event Sourcing PHP - Unit Tests">
+            <directory>tests/unit</directory>
+        </testsuite>
+    </testsuites>
+</phpunit>

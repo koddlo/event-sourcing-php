@@ -1,0 +1,11 @@
+version: '3.7'
+services:
+  event_sourcing_php:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: 'event-event_sourcing_php-php'
+    restart: 'on-failure'
+    tty: true
+    volumes:
+      - .:/var/www/html
